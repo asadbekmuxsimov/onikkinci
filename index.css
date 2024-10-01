@@ -1,0 +1,190 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: auto auto auto ;
+    background-color: black;
+    width: 500px;
+    height: 700px;
+    padding: 50px;
+    border-radius: 30px;
+
+}
+
+.item{
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    
+
+
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: gray;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+    border-radius: 30px;
+}
+.item2{
+background-color: white;
+border-radius: 50%;
+
+}
+.item3{
+    background-color: white;
+    border-radius: 50% ;
+}
+.item4{
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+    
+}
+.item5{
+    background-color: white;
+    border-radius: 50%;
+
+}
+.item6{
+    background-color: white;
+    border-radius: 50%;
+
+}
+.item7{
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+
+}
+.item8{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 50px;
+}
+.item9{
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+}
+ */
+
+
+/* img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-div{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: auto auto auto auto ;
+
+}
+
+.img1{
+
+    grid-area: 1 / 1 / 3 / 3;
+
+} */
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 75px;
+
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: orangered;
+}
+
+nav {
+    display: flex;
+    padding: 20px 70px 20px 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page1 {
+    background-image: url(./Rectangle\ 48.png);
+    text-align: center;
+}
+
+.page1 h5 {
+    padding: 50px;
+    font-size: 24px;
+    color: white;
+
+}
+
+.page1 h1 {
+    width: 937px;
+    height: 160px;
+    font-size: 58px;
+    color: white;
+    margin-left: 300px;
+
+}
+
+.page1 p {
+    margin-top: 30px;
+    font-size: 24px;
+    color: white;
+
+}
+.page1 button{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.page1 button:hover{
+    background-color: orangered;
+    border: none;
+    cursor: pointer;
+}
+.page1 img{
+    position: absolute;
+    bottom: -650px;
+    left: 400px;
+}
+hr{
+    margin-top: 650px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
